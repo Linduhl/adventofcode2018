@@ -1,9 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
-# Open file for reading
+# Opening file to read from
 f = open('input.txt', 'r+')
+# Adding up frequencies
 result = 0
 for line in f.readlines():
-    result += int(line) 
+    result += int(line)
+# Closing that file pointer
 f.close()
+# What's the result?
 print result
