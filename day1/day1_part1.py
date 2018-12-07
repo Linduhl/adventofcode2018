@@ -9,4 +9,4 @@ for line in f.readlines():
 # Closing that file pointer
 f.close()
 # What's the result?
-print result
+print "Resulting frequency: %d" %result
