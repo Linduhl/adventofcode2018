@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # Opening file to read from
-f = open('input.txt', 'r+')
+f = open('day1_input.txt', 'r+')
 
 # declare and initialize list with input data
 input_list = []
